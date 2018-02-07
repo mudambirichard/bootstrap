@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <nav class="navbar  navbar-default  navbar-fixed-top">
+     <div class="container">
+        <button type="button" class="navbar-toggle" 
+        data-toggle="collapse"
+        data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">PragramingKnowledge</a>
+        <div class="navbar-collapse collapse">
+           <ul class=" nav navbar-nav navbar-right">
+             <li class="active"><a href="#" data-toggle="modal" data-target="#mymodal">Home</a></li>
+             <li class="active"><a href="#" data-toggle="modal" data-target="#mymodal">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle"
+                data-toggle="dropdown">Learned <b class="caret"></b>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-header">*Examples</li>
+                  <li><a href="#">c++</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li class="dropdown-header">*Tutorials</li>
+                  <li><a href="#">Python</a></li>
+                  <li><a href="#">css</a></li>
+                </ul> 
+              </li>
+           </ul>
+         </div>
+      </div>
+ </nav>
+ <div class="container">
+ <div class="jumbotron text-centre">
+ <h1> Hello World!!!</h1>
+ <div>
+  <a href="#">likes <span class="badge"> 10</span></a>
+  <a href="#">comments <span class="badge"> 10</span></a>
+  </div>
+</div>
+</div>
+ <!--===============SLIDES=============-->
+ <div class="container">
+
+ <div id="mycarousel" class="carousel slide" data-ride="carousel" data-interval="1000">
+    <ol class="carousel-indicators">
+    <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#mycarousel" data-slide-to="1"></li>
+    <li data-target="#mycarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+    <div class="item active">
+      <img src="image/webh2.jpeg">
+      <div class="carousel-caption">
+        <h1>Theme 1</h1>
+      </div>
+    </div>
+     <div class="item ">
+      <img src="image/item3.jpeg">
+       <div class="carousel-caption">
+        <h1>Theme 2</h1>
+      </div>
+    </div>
+     <div class="item ">
+      <img src="image/logo4.png">
+       <div class="carousel-caption">
+        <h1>Theme 3</h1>
+      </div>
+    </div>
+ </div>
+ <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+ <span class=" glyphicon glyphicon-chevron-left"></span>
+ </a>
+
+  <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+ <span class=" glyphicon glyphicon-chevron-right"></span>
+ </a>
+ </div>
+ </div>
+ <!--==============================pwdand email================-->
+ <form class="form-inline" role="form">
+ <div class="form-group">
+    <label for="pwd">Pasword :</label>
+    <input class="form-control" id="pwd" type="pasword">
+  </div>
+  <div class="form-group">
+    <label for="email">email :</label>
+    <input class="form-control" id="email" type="email">
+  </div>
+  </form>
+  <!---=========================rows  and columns===============-->
+  </div>
+ <div class="row">
+<div class="col-md-4">
+<a href="#" class="thumbnail">
+  <img src=" logo/logo2.png"  alt="logo Tutorial">
+</a>
+ <h3>C++</h3>
+  <p> 
+   S4 results will be back immediately. 
+   Iam from church today one one is good.
+   Therefore we need to be alert due to that situation
+  .Thank you .Keep it up Nice boy and girl for the work welldone
+  </p>
+  <button type=button class="btn btn-warning"><span class="glyphicon  glyphicon-heart"></span>click here</button>
+</div>
+<div class="col-md-4">
+<a href="#" class="thumbnail">
+  <img src=" logo/logo3.png"  alt="logo">
+</a>
+ <h3>Java</h3>
+  <p> 
+   S4 results will be back immediately. 
+   Iam from church today one one is good.
+   Therefore we need to be alert due to that situation
+  .Thank you .Keep it up Nice boy and girl for the work welldone
+  </p>
+  <button type=button class="btn btn-success"><span class="glyphicon  glyphicon-plus"></span>click here</button>
+</div> 
+<div class="col-md-4">
+<a href="#" class="thumbnail">
+  <img src=" logo/logo4.png"  alt="logo">
+</a>
+ <h3>Python</h3>
+  <p> 
+   S4 results will be back immediately. 
+   Iam from church today one one is good.
+   Therefore we need to be alert due to that situation
+  .Thank you .Keep it up Nice boy and girl for the work welldone
+  </p>
+  <button type=button class="btn btn-danger"><span class="glyphicon  glyphicon-envelope"></span>click here</button>
+</div>  
+ </div>  
+ </div>
+
+
+
+ <!--Fixed Footer-->
+ <div  class="navbar  navbar-inverse  navbar-fixed-bottom">
+   <div class="container">
+   <div class="navbar-text pull-left">
+   <p>Copyrigh PragramingKnowledget 2018</p>
+   </div> 
+    <div class="navbar-text pull-right">
+   <a href="#"><i class=" fa fa-facebook"></i></a>
+   </div>  
+   </div>
+ </div>
+   
+   
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
